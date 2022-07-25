@@ -4,14 +4,6 @@
   grid-template-rows: 200px 1fr;
 }
 
-.column1{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(10,1fr);
-  grid-row:1/3;
-  background-color: skyblue;
-  height:1000px;
-}
 
 .column2{
   background-color: lightgray;
@@ -26,4 +18,9 @@ li{
 
 #dash{
   font-size:2rem;
+}
+
+ul:first-child{
+  grid-row: 1/2;
+  background-color: blue;
 }
