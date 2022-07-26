@@ -4,6 +4,12 @@
   grid-template-rows: 200px 1fr;
 }
 
+.column1{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
 
 .column2{
   background-color: lightgray;
