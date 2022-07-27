@@ -1,34 +1,39 @@
 .container{
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 250px 1fr;
   grid-template-rows: 200px 1fr;
 }
 
-.column1{
+.column1a, .column1b, .column1c, .dash{
   display:grid;
-  grid-template-columns: 30px 1fr;
-  grid-template-rows: repeat(10,1fr);
+  grid-template-columns: 20px 1fr;
+  grid-template-rows: repeat(5,1fr);
   align-items: center;
-  grid-gap: 10px;
+  grid-gap: 15px;
+  background-color: darkgray;
 }
 
+.column1a{
+  grid-template-rows: repeat(3,1fr);
+}
+
+.column1c{
+  grid-template-rows: repeat(19,1fr);
+}
+
+.dash{
+  grid-template-rows: repeat(2,1fr);
+}
 
 .column2{
-  background-color: lightgray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 15vh 1fr;
+  grid-gap:20px;
+  background-color: skyblue;
   height:1000px;
-}
-
-li{
-  color: white;
-  font-size: 1.5rem;
-  list-style: none;
 }
 
 #dash{
   font-size:30px;
-}
-
-ul:first-child{
-  grid-row: 1/2;
-  background-color: blue;
 }
