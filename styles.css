@@ -66,12 +66,16 @@ form{
   margin-right: 20px;
 }
 
-#item3{
-  display: flex;
-}
-
 #item3side1{
   display:grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+#p1{
+  font-size: 20px;
+}
+
+#p2{
+  font-size: 30px;
 }
