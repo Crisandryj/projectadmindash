@@ -78,7 +78,8 @@ form{
 }
 
 div[id="item3side1"] > div{
-  
+  grid-row: span 2;
+  align-self: center;
 }
 
 #p2{
