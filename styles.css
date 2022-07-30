@@ -70,6 +70,7 @@ form{
   display:grid;
   grid-template-columns: 45px 1fr;
   grid-template-rows: 1fr 45px;
+  grid-column-gap: 20px;
   align-items: end;
 }
 
