@@ -13,6 +13,7 @@
   background-color: darkgray;
 }
 
+
 .column1a{
   grid-template-rows: repeat(3,1fr);
 }
@@ -91,4 +92,35 @@ div[id="item3side1"] > div{
 
 #userwelcome{
   line-height: .05px;
+}
+
+#item2{
+  display:grid;
+  grid-template-columns: 20px 40px 1fr;
+  grid-template-rows: 40px;
+  grid-column-gap: 20px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content:flex-end;
+  grid-column-gap: 25px;
+}
+
+#item2 > p{
+  font-size: 20px;
+}
+
+#item4{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+  align-content: center;
+  justify-content: center;
+}
+#item4 > button{
+  background-color: blue;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+
 }
