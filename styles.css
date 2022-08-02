@@ -55,10 +55,7 @@ body{
   margin-left: 20px;
 }
 
-.row1a > p{
-  font-weight: bold;
 
-}
 
 form{
   display: grid;
@@ -152,5 +149,9 @@ div[id="item3side1"] > div{
   align-content: center;
   grid-gap: 50px;
   margin-left: 30px;
+}
 
+.leftside > div{
+  background-color: white;
+  border-left: 5px solid orange;
 }
