@@ -150,9 +150,9 @@ div[id="item3side1"] > div{
 }
 
 .leftside > div{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 4fr 1fr;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: white;
   border-left: 5px solid orange;
   border-radius: 15px;
@@ -175,4 +175,8 @@ div[id="item3side1"] > div{
 
 .rightside > div:nth-child(2){
   background-color: lightgray;
+}
+
+.bottomicons{
+  align-self: end;
 }
