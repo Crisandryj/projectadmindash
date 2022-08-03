@@ -55,8 +55,6 @@ body{
   margin-left: 20px;
 }
 
-
-
 form{
   display: grid;
   grid-template-columns: 25px 1fr;
@@ -154,4 +152,24 @@ div[id="item3side1"] > div{
 .leftside > div{
   background-color: white;
   border-left: 5px solid orange;
+  border-radius: 15px;
+}
+
+.rightside{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.5fr 10vh 1fr;
+}
+
+.rightside > div{
+  background-color: white;
+  border-left: 20px solid lightgray ;
+  border-right: 10px solid lightgray ;
+  border-top: 5px solid lightgray;
+  border-radius: 25px;
+
+}
+
+.rightside > div:nth-child(2){
+  background-color: lightgray;
 }
