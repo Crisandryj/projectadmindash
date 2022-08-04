@@ -32,7 +32,7 @@ body{
 .column2{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 15vh 1fr 30fr;
+  grid-template-rows: 15vh .5vh 75vh;
   grid-gap:20px;
   height:1000px;
 }
@@ -205,10 +205,17 @@ div[id="item3side1"] > div{
   border-top: 1px solid black;
 }
 
+.columnheading{
+  position:relative;
+  left:15px;
+
+}
+
 #trending{
   display: grid;
   justify-content: center;
-  grid-column-gap: 15px;
+  align-self: center;
+  grid-column-gap: 20px;
   grid-row-gap: 30px;
   grid-template-columns: 5vh 1fr;
   grid-template-rows: 5vh 5vh 5vh 5vh;
@@ -217,4 +224,21 @@ div[id="item3side1"] > div{
 .icon{
   background-color: gray;
   border-radius: 100px;
+}
+
+h4{
+  position: relative;
+  bottom: 20px;
+}
+
+.icon{
+  position: relative;
+  left: 5px;
+}
+
+#trend{
+  position: relative;
+  bottom:0px;
+  top: 40px;
+
 }
