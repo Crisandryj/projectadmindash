@@ -81,7 +81,7 @@ form {
   margin-left: 20px;
   margin-right: 20px;
 }
-
+/* left side item 3*/
 #item3side1 {
   display: grid;
   grid-template-columns: 45px 1fr;
