@@ -46,7 +46,7 @@ body {
 .column1labels{
   color: white;
 }
-
+/*first row*/
 .row1 {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
