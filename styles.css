@@ -73,7 +73,6 @@ form {
   border-radius: 10px;
   background-color: lightgray;
 }
-
 #search-container {
   display: grid;
   grid-template-columns: 1fr;
