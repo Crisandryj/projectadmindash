@@ -107,7 +107,7 @@ div[id="item3side1"]>div {
 #userwelcome {
   line-height: .05px;
 }
-
+/*second item*/
 #item2 {
   display: grid;
   grid-template-columns: 20px 40px 1fr;
