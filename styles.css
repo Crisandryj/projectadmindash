@@ -98,7 +98,7 @@ form {
 div[id="item3side1"]>div {
   align-self: center;
 }
-
+/*paragraph 2*/
 #p2 {
   font-size: 25px;
   grid-column: 2/3;
