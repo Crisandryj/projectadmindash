@@ -140,7 +140,7 @@ div[id="item3side1"]>div {
   width: 100px;
   height: 30px;
 }
-
+/*row*/
 .row2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
