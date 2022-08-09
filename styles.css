@@ -145,7 +145,7 @@ div[id="item3side1"]>div {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
-
+/*leftside of bottom column*/
 .leftside {
   display: grid;
   grid-template-columns: repeat(2, 400px);
